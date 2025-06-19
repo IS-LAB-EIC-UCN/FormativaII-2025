@@ -15,6 +15,7 @@ public class Tarea {
     private String titulo;
 
     private String descripcion;
+    @Column(name = fecha_vencimiento)
     private LocalDate fechaFinalizacion;
     private boolean completada;
 
